@@ -12,7 +12,7 @@ CPU・メモリ使用率をリアルタイムの折れ線グラフで表示し�
 - CSVログ出力機能
 
 ## スクリーンショット
-<img width="1178" height="739" alt="image" src="https://github.com/user-attachments/assets/7aa9029f-f8dc-4e1a-970a-24b299f9f07e" />
+<img width="1178" height="739" alt="image" src="https://github.com/user-attachments/assets/adb10489-452b-4adb-8c30-f0bda6ecb5a3" />
 
 
 ## ビルド方法
