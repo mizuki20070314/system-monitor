@@ -4,6 +4,10 @@ C言語と Windows API (`windows.h`) だけで作成したシステムモニタ�
 CPU・メモリ使用率をリアルタイムの折れ線グラフで表示します。  
 ダークモードやウィンドウサイズ変更に対応。
 
+## ダウンロード
+最新版は [Releases](https://github.com/mizuki20070314/system-monitor/releases) から実行ファイルを入手できます。  
+解凍後に `system-monitor.exe` をダブルクリックしてください。 
+
 ## 機能
 - CPU・メモリ使用率のリアルタイム折れ線グラフ
 - グリッド表示
