@@ -13,7 +13,8 @@ CPU・メモリ使用率をリアルタイムの折れ線グラフで表示し�
 - グリッド表示
 - ダークモード切替（Dキー）
 - 最新値をグラフ右端に強調表示
-- CSVログ出力機能
+- CSVログ出力機能 (Lキー)
+- ウィンドウサイズの変更で再描画
 
 ## スクリーンショット
 <img width="1178" height="739" alt="image" src="https://github.com/user-attachments/assets/adb10489-452b-4adb-8c30-f0bda6ecb5a3" />
