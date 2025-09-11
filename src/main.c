@@ -53,7 +53,7 @@ LRESULT CALLBACK NameInputWndProc(HWND hWnd, UINT msg, WPARAM wParam, LPARAM lPa
     static HWND hEdit;
     switch(msg) {
         case WM_CREATE: {
-            CreateWindowEx(0, L"STATIC", L"名前を入力してください", 
+            CreateWindowEx(0, L"STATIC", L"ユーザー名を入力してください", 
                            WS_VISIBLE | WS_CHILD, 10, 10, 280, 20, hWnd, NULL, 
                            ((LPCREATESTRUCT)lParam)->hInstance, NULL);
             hEdit = CreateWindowEx(WS_EX_CLIENTEDGE, L"EDIT", L"",
@@ -97,7 +97,7 @@ BOOL runModalNameInput(HINSTANCE hInst) {
     wc.lpszClassName = L"NameInputWindow";
     RegisterClassEx(&wc);
 
-    HWND hWnd = CreateWindowEx(0, wc.lpszClassName, L"名前入力",
+    HWND hWnd = CreateWindowEx(0, wc.lpszClassName, L"ユーザー名入力",
                                WS_OVERLAPPED | WS_CAPTION | WS_SYSMENU,
                                CW_USEDEFAULT, CW_USEDEFAULT, 300, 150,
                                NULL, NULL, hInst, NULL);
